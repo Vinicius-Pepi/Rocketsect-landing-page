@@ -1,0 +1,78 @@
+body{
+  background-color: #2F2E41;
+  padding: 0 90px;
+  font-family: 'JetBrains Mono';
+}
+
+/* formatando cabeçalho e menu da página*/
+
+header .menu nav{
+  margin: 70px auto 100px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+header .menu nav ul{
+  color: #FFFFFF;
+  list-style: none;
+  font-size: 14px;
+
+  display: flex;
+  gap: 65px;
+}
+
+
+/* formatando conteúdo principal da página*/
+main section .conteudo{
+  display: flex;
+  text-align: center;
+  color: #C2C2C2;
+  line-height: 28px;
+  font-family: 'Open Sans';
+  max-width: 1280px;
+  margin: 0 auto;
+  
+
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 160px;
+}
+
+main section .conteudo h1{
+  font-weight: 700;
+  font-size: 36px;
+  font-family: 'JetBrains Mono';
+  color: #FFFFFF;
+  margin-bottom: 60px;
+}
+
+main section .conteudo span{
+  color: #00BFA6;
+}
+
+main section .conteudo img{
+  margin-right: 80px;
+}
+
+
+
+/* Fomatando footer da página */
+footer{
+  max-width: 568px;
+  margin: 0 auto;
+}
+footer section p{
+  text-align: center;
+  color: #FFFFFF;
+  border-top: 1px solid #00BFA6;
+  padding-top: 30px;
+}
+
+#cadeado{
+  position: fixed;
+  left: 20px;
+  bottom: 20px;
+}
